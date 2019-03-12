@@ -1,0 +1,35 @@
+/* PHASE 9: Forms */
+
+.form {
+    margin: 0 0 20px 0;
+    display: flex;
+}
+
+.form-fieldset{
+    background: lightgray;
+    display: flex;
+    margin:  0 0 0 20px;
+    padding: 20px;
+    width: 500px;
+}
+.input {
+    width: 500px;
+    background: white;
+}
+
+.form-title {
+    width: 800px;
+    padding: 30px;
+}
+
+.form-textarea {
+    width: 400px;
+}
+
+
+
+
+
+.submit {
+
+}

@@ -1,0 +1,75 @@
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.ttt {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+.x li{
+    background: white;
+    color: red;
+    justify-content: center;
+}
+.o li{
+    background: white;
+    color: blue;
+    justify-content: center;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+}
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 105px;
+    min-height: 105px;
+    background: lightgrey;
+    border: 5px solid black;
+}
+li.o {
+    background: white;
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+}
+li.x {
+    background: white;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+}
+li:hover {
+    background: yellow;
+}
+li.winner {
+    background: green;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+}
+li.game-over {
+    background: white;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+}
